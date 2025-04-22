@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>1644504f-467a-411c-9dad-d93e790d83f2</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>45823db0-f40d-40b8-a2d7-d9f447c5746b</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+    <Filter Include="Assets\Data">
+      <UniqueIdentifier>{99f79b73-6b92-47c2-9865-ddd09394212e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="MainWorkerFuncs.cpp" />
+    <ClCompile Include="ReadingDummyTickets.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="MainWorkerFuncs.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\status-light_green.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\status-light_orange.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\status-light_red.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\status-light_green-tiny.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\status-light_orange-tiny.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\status-light_red-tiny.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="MainPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Data\tickets_all_options.txt">
+      <Filter>Assets\Data</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="itDemoApp_TemporaryKey.pfx" />
+  </ItemGroup>
+</Project>

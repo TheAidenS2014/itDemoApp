@@ -1,0 +1,47 @@
+_START_TYPE_TICK
+( select from dropdown... )
+Physical (computers, printers, outlets, etc.)
+Digital (network services, accounts, the internet, etc.)
+_END_TYPE_TICK
+_START_LOC_PHYS
+( select from dropdown... )
+Classroom
+Office
+Dorm Room
+Kitchen / Cafe
+Stage / Gymnasium
+Meeting / Event Room
+Network / Server Room
+IT Offices
+OTHER (describe in room text box)
+_END_LOC_PHYS
+_START_PROB_PHYS
+( select from dropdown... )
+Broken or damaged laptop and/or desktops
+Broken or damaged room equipment (projectors, outlets, cables, etc.)
+Broken or damaged computer accessory (keyboard, printer, remote, etc.)
+Stolen or missing computer and/or computer accessory
+Stolen or missing room equipment
+Screen not appearing on TV or projector
+No sound from TV or speakers
+Unable to access the internet on specific computer or device
+Unable to sign into specific computer
+REQUEST: New computer
+REQUEST: New accessory
+OTHER (explain thoroughly)
+_END_PROB_PHYS
+_START_PROB_DIGI
+( select from dropdown... )
+Unable to sign into account
+Unable to access website
+Computer is crashing or unstable
+Computer is out of date
+Application is crashing or unstable
+Application is out of date
+Device doesn't appear in computer and/or application (printers, scanners, etc)
+Device driver is crashing or unstable
+Device driver is out of date
+REQUEST: Website unblock/access request
+REQUEST: Install new application
+OTHER (explain thoroughly)
+_END_PROB_DIGI
